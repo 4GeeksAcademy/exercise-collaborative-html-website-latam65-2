@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 body{
-    background: #BDBDBD;
+    background-color: white;
 }
 .boxservices1 {
     display: flex;
@@ -68,6 +71,43 @@ p {
     height: 130px;
     margin-top: 50px;
 }
+.navbar-nav .nav-link {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: light;
+}
+.navbar {
+  padding: 8px 0;
+}
 
+.tagline {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline h1 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 120px;
+}
+
+.tagline h2 {
+  font-size: 80px;
+  padding-right: 10px; 
+}
+
+.portfolio {
+  margin-right: 40px;
+  margin-left: 40px;
+  width: auto;
+}
+.description-portfolio {
+  font-size: 25px;
+}
 
 
